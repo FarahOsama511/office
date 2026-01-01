@@ -1,16 +1,21 @@
 # office
 
-A new Flutter project.
+A Flutter application for managing orders between users and baristas efficiently and in real-time.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Office App allows users to:
 
-A few resources to get you started if this is your first Flutter project:
+Create new orders with all details.
+Edit or delete orders before they are processed.
+Orders are sent to the barista as a voice message containing:
+Order details
+The name of the user who placed the order
+The barista updates the order state as they progress.
+Users receive real-time updates on the status of their orders.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add, edit, and delete orders.
+Voice notifications for baristas when a new order is received.
+Real-time order status updates.
